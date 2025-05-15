@@ -2,62 +2,118 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Christian Johnson – IT Journey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian Johnson – IT Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: #222;
-    }
-    .container {
-      background: white;
-      padding: 2rem 3rem;
-      border-radius: 15px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 500px;
-    }
-    h1 {
-      margin-bottom: 0.25em;
-    }
-    p {
-      font-size: 1.1rem;
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f7fa;
+      color: #333;
       line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
       margin-bottom: 2rem;
     }
-    a.button {
-      background: #007acc;
-      color: white;
-      text-decoration: none;
+
+    h2 {
+      color: #4facfe;
+    }
+
+    .button {
+      display: inline-block;
       padding: 0.75rem 1.5rem;
-      border-radius: 8px;
+      margin-top: 1rem;
+      background-color: #4facfe;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
       font-weight: bold;
       transition: background 0.3s ease;
     }
-    a.button:hover {
-      background: #005fa3;
+
+    .button:hover {
+      background-color: #3898ec;
     }
+
     footer {
-      margin-top: 2rem;
-      font-size: 0.8rem;
-      color: #666;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>👋 Hey, I'm Christian</h1>
-    <p>Welcome to my digital corner! I'm learning my way through IT — homelabs, automation, self-hosted tools, and all the geeky stuff in between.</p>
+
+  <header>
+    <h1>👋 Hi, I'm Christian Johnson</h1>
+    <p>Documenting my journey into IT, homelabs, and automation.</p>
     <a href="https://blog.johnsonfamilyhub.com" class="button">📖 Visit My Blog</a>
-    <footer>
-      Built with 💻 and a lot of learning.
-    </footer>
-  </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>🧠 About Me</h2>
+      <p>
+        I'm a self-taught IT enthusiast passionate about hands-on learning. I’ve been building my own homelab, experimenting with automation, and diving into tools like Proxmox, Docker, and pfSense — all while documenting my progress to help others and track my growth.
+      </p>
+    </section>
+
+    <section>
+      <h2>📘 Certifications</h2>
+      <ul>
+        <li>Working toward CompTIA A+ and Network+</li>
+        <li>Hands-on experience with Linux, CLI, and server virtualization</li>
+        <li>Learning scripting and automation with Python</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Projects</h2>
+      <ul>
+        <li><strong>Homelab Build:</strong> Proxmox server running Pi-hole, Docker, and self-hosted apps</li>
+        <li><strong>Personal Budget Tracker:</strong> Self-hosted <a href="https://actualbudget.org" target="_blank">Actual Budget</a> on my own domain</li>
+        <li><strong>Custom Website:</strong> This site, built and deployed using GitHub Pages and custom DNS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📬 Contact</h2>
+      <p>Email: <a href="mailto:christian@johnsonfamilyhub.com">christian@johnsonfamilyhub.com</a></p>
+      <p>GitHub: <a href="https://github.com/cjohnson-dev" target="_blank">cjohnson-dev</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Christian Johnson — Built with GitHub Pages
+  </footer>
+
 </body>
 </html>
