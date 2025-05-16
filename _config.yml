@@ -4,7 +4,7 @@ description: >
   Documenting my journey into homelabs, automation, and self-hosting.
 
 url: "https://johnsonfamilyhub.com"
-baseurl: "/blog"  # blog lives under this subpath
+baseurl: "/blog"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -14,3 +14,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
+
