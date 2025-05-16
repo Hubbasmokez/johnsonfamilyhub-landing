@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "From Finance to Firewalls: My Journey Into IT & InfoSec"
 excerpt: "Why I'm leaving finance to pursue a career in information security, and how I plan to get there — one homelab at a time."
 categories:
@@ -10,8 +10,15 @@ tags:
   - cybersecurity
   - beginner
 date: 2025-05-15
+header:
+  overlay_image: /assets/img/me.png
+  overlay_filter: "0.3"
+  caption: "Published on May 15, 2025"
+  actions:
+    - label: "Back to Blog"
+      url: /blog/
 ---
-![Intro to my journey]( /assets/img/me.png )
+
 
 Hey there 👋 — I'm Christian Johnson, a husband, proud dad of three, and someone who's spent years in the finance industry solving problems, leading teams, and chasing performance goals. But behind the spreadsheets and strategy meetings, there's always been a spark—an obsession, really—with technology.
 
