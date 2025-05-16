@@ -1,0 +1,20 @@
+title: Christian Johnson's Blog
+email: christian@johnsonfamilyhub.com
+description: >
+  Documenting my journey into homelabs, automation, and self-hosting.
+
+# This should be your full root domain
+url: "https://johnsonfamilyhub.com"
+
+# This is the subpath (because you're hosting it at johnsonfamilyhub.com/blog)
+baseurl: "/blog"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+
