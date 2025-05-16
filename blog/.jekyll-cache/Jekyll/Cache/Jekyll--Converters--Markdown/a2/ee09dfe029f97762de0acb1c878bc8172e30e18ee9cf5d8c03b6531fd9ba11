@@ -1,0 +1,35 @@
+I")<h2 id="-about-me">🧠 About Me</h2>
+
+<p>I’m a self-taught IT enthusiast passionate about hands-on learning. I’ve been building my own homelab, experimenting with automation, and diving into tools like Proxmox, Docker, and pfSense — all while documenting my progress to help others and track my growth.</p>
+
+<p><a href="https://blog.johnsonfamilyhub.com" class="button">📖 Visit My Blog</a></p>
+
+<hr />
+
+<h2 id="-certifications">📘 Certifications</h2>
+
+<ul>
+  <li>Working toward CompTIA A+ and Network+</li>
+  <li>Hands-on experience with Linux, CLI, and server virtualization</li>
+  <li>Learning scripting and automation with Python</li>
+</ul>
+
+<hr />
+
+<h2 id="️-projects">🛠️ Projects</h2>
+
+<ul>
+  <li><strong>Homelab Build:</strong> Proxmox server running Pi-hole, Docker, and self-hosted apps</li>
+  <li><strong>Personal Budget Tracker:</strong> Self-hosted <a href="https://actualbudget.org">Actual Budget</a> on my own domain</li>
+  <li><strong>Custom Website:</strong> This site, built and deployed using GitHub Pages and custom DNS</li>
+</ul>
+
+<hr />
+
+<h2 id="-contact">📬 Contact</h2>
+
+<ul>
+  <li>📧 Email: <a href="mailto:christian@johnsonfamilyhub.com">christian@johnsonfamilyhub.com</a></li>
+  <li>🧑‍💻 GitHub: <a href="https://github.com/cjohnson-dev">cjohnson-dev</a></li>
+</ul>
+:ET
